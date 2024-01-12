@@ -24,7 +24,7 @@ String problemstring = ""; // Variable to store the current problem string
 bool useadditionalled = false; // Variable to store the additional LED setting
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
 
   if (!bleSerial.beginAndSetupBLE("MoonBoard A")) { // Initialize BLE UART and check if it is successful
     // This should never happen as it means that the BLE setup failed and the program cannot run!
