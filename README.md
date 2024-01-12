@@ -1,3 +1,4 @@
+[modificated platformio.ini file to use it using ESP32 microcontroller]
 # ArduinoMoonBoardLED: A Simple Arduino MoonBoard Bluetooth Low Energy (BLE) LED System
 
 ## Introduction
